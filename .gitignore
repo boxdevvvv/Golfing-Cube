@@ -9,6 +9,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+!/[Aa]ssets/**/*.meta
 /[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
