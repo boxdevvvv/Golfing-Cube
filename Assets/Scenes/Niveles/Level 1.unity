@@ -4606,19 +4606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1433142026, guid: 29164484c8d97814284015c77f35de23, type: 3}
-      propertyPath: ballsButton
-      value: 
-      objectReference: {fileID: 2125379370}
-    - target: {fileID: 1433142026, guid: 29164484c8d97814284015c77f35de23, type: 3}
-      propertyPath: gachaButton
-      value: 
-      objectReference: {fileID: 1864864748}
-    - target: {fileID: 3106955978834817731, guid: 29164484c8d97814284015c77f35de23,
-        type: 3}
-      propertyPath: m_LengthScale
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5572983978374574786, guid: 29164484c8d97814284015c77f35de23,
         type: 3}
       propertyPath: m_RootOrder
@@ -19687,12 +19674,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1860859209}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1864864748 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7937172531396417522, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7937172530911544350}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1864864749 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7937172531396417523, guid: 809e88612cbaec846b9d9085a0a0e74b,
@@ -21755,12 +21736,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3528185548175646149, guid: 4e3b8b43d67c34e43bd2aef50ef6e8df,
     type: 3}
   m_PrefabInstance: {fileID: 2116767935}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2125379370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7937172531672658740, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7937172530911544350}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &2125379374 stripped
 RectTransform:

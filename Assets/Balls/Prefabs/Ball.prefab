@@ -249,7 +249,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 247202d824301a5488da5a4927d24977, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cde5b0b48fa06264d8b41b30a5f8aebd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -491,8 +491,6 @@ MonoBehaviour:
   arrow: {fileID: 991720890}
   activeTouch: 0
   firstTry: 0
-  gachaButton: {fileID: 0}
-  ballsButton: {fileID: 0}
 --- !u!96 &895380617
 TrailRenderer:
   serializedVersion: 2
