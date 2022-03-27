@@ -1,14 +1,24 @@
 fileFormatVersion: 2
-guid: 6e788461d865b7a4fa91ff8e886e47cd
+guid: d2a7ebef64390274b9002f8fb0d66454
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Futbol_Mat.001
+    second: {fileID: 2100000, guid: 505aa7d672c84694cb36a16c334dcaca, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: futball
-    second: {fileID: 2800000, guid: 00cbe8d582d9c4240a31fe90813b2e1b, type: 3}
+      name: FootBall_NMap_normals
+    second: {fileID: 2800000, guid: 19dacd35596ebee49a6ef8e67a196704, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FutBall_ColorMap
+    second: {fileID: 2800000, guid: 186674a89c090bb44a0a5cd1c18df5bb, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
