@@ -19441,6 +19441,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9050674259906608611, guid: ae7bc714f27170242a8b112aa6462bd5,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050674259906608611, guid: ae7bc714f27170242a8b112aa6462bd5,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050674259906608611, guid: ae7bc714f27170242a8b112aa6462bd5,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050674259906608611, guid: ae7bc714f27170242a8b112aa6462bd5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9050674259906608620, guid: ae7bc714f27170242a8b112aa6462bd5,
         type: 3}
       propertyPath: textFail

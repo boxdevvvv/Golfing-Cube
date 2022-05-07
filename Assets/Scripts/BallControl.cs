@@ -141,5 +141,11 @@ public class BallControl : MonoBehaviour
     }
 
 
-  
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Ground"))
+        {
+            SoundManager.PlaySound("Pared");
+        }
+    }
 }

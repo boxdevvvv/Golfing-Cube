@@ -20,7 +20,7 @@ public class SoundManager : MonoBehaviour
 
     }
 
-    public static AudioClip Jump, bloqueNormal, BloqueBase, salto, musica, bloqueEspecial;
+    public static AudioClip Jump, bloqueNormal, BloqueBase, salto, musica, bloqueEspecial, bloquePared, emerge;
     public static AudioSource effectsScript;
     public static AudioSource musicScript;
     
@@ -32,6 +32,9 @@ public class SoundManager : MonoBehaviour
 
         bloqueNormal = Resources.Load<AudioClip>("PopSound");
         bloqueEspecial = Resources.Load<AudioClip>("PopSound2");
+        bloquePared = Resources.Load<AudioClip>("Pared");
+
+        emerge = Resources.Load<AudioClip>("Emerge");
 
         salto = Resources.Load<AudioClip>("Colision");
         BloqueBase = Resources.Load<AudioClip>("BloqueBase");
@@ -56,7 +59,14 @@ public class SoundManager : MonoBehaviour
                    break;
                case "BloqueBase":
                    effectsScript.PlayOneShot(BloqueBase);
-                   break;
-           }
+                break;
+            case "Pared":
+                effectsScript.PlayOneShot(bloquePared);
+                break;
+            case "Emerge":
+                effectsScript.PlayOneShot(emerge);
+                break;
+
+        }
     }
 }

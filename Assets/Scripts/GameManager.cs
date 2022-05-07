@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
     IEnumerator ActivadorScale()
     {
         _cameraFinal.m_Priority = 10; //pone la camara superior
+        SoundManager.PlaySound("Emerge");
         while (scaleCount < 16) //hace crecer al activador para dar la sensacion de oleada
         {
             activador.transform.localScale = new Vector3(activador.transform.localScale.x + 0.5f, 1, activador.transform.localScale.z + 0.5f);

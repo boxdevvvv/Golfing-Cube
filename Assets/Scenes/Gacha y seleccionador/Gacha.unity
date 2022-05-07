@@ -190,6 +190,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 547367933521905819, guid: 53051ee33bb23be4e990b9a9a79a4c0f,
+        type: 3}
+      propertyPath: characters.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 547367933521905819, guid: 53051ee33bb23be4e990b9a9a79a4c0f,
+        type: 3}
+      propertyPath: characters.Array.data[4]
+      value: 
+      objectReference: {fileID: 4615395346476448848, guid: 11b693adb2352094b862b2fe7c2668c9,
+        type: 3}
+    - target: {fileID: 547367933521905819, guid: 53051ee33bb23be4e990b9a9a79a4c0f,
+        type: 3}
+      propertyPath: characters.Array.data[5]
+      value: 
+      objectReference: {fileID: 3778511467026806665, guid: 424894e9e9bf4e2458f6d6b9ee1298bb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53051ee33bb23be4e990b9a9a79a4c0f, type: 3}
 --- !u!1 &158925120
@@ -1519,6 +1536,8 @@ MonoBehaviour:
   - {fileID: 8334273629665426340, guid: 5595635f8358c3c419aa0b1f3bab7d5c, type: 3}
   - {fileID: 9003157275481353994, guid: 07566f1c7d83b494a9d68edd87d54530, type: 3}
   - {fileID: 9114133192520202820, guid: 6d28e8543abb59247a187896b1a9aeb3, type: 3}
+  - {fileID: 4615395346476448848, guid: 11b693adb2352094b862b2fe7c2668c9, type: 3}
+  - {fileID: 3778511467026806665, guid: 424894e9e9bf4e2458f6d6b9ee1298bb, type: 3}
   numeroAleatorio: 0
   gachaExterno: {fileID: 4521719193059024729}
   gold: {fileID: 158925122}
