@@ -3921,8 +3921,8 @@ MonoBehaviour:
   skins:
   - {fileID: 2100000, guid: fa5e96a2efcbd424ebee0ffa5719d321, type: 2}
   - {fileID: 2100000, guid: f6040188cabfe564da0951b1c64f71db, type: 2}
-  gachaButton: {fileID: 2424408712828262715}
-  ballsButton: {fileID: 2424408712828262713}
+  gachaButton: {fileID: 0}
+  ballsButton: {fileID: 0}
 --- !u!1001 &582274813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17045,6 +17045,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_enabled
       objectReference: {fileID: 0}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1494041614}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7937172530445460445, guid: 809e88612cbaec846b9d9085a0a0e74b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -17212,21 +17232,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 809e88612cbaec846b9d9085a0a0e74b, type: 3}
---- !u!224 &2424408712828262713 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7937172531672658741, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2424408712828262712}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2424408712828262714 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7937172530674465561, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2424408712828262712}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &2424408712828262715 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7937172531396417523, guid: 809e88612cbaec846b9d9085a0a0e74b,
     type: 3}
   m_PrefabInstance: {fileID: 2424408712828262712}
   m_PrefabAsset: {fileID: 0}

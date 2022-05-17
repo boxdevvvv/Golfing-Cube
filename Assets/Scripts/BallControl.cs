@@ -140,12 +140,17 @@ public class BallControl : MonoBehaviour
         return position;                                                //devuelve el valor
     }
 
-
+    private bool spawneo = false;
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Ground"))
         {
-            SoundManager.PlaySound("Pared");
+            if(spawneo)
+            {
+                SoundManager.PlaySound("Pared");
+                return;
+            }
+            spawneo = true;
         }
     }
 }

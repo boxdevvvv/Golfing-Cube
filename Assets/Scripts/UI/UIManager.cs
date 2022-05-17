@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI textToName; // se le da el nombre
     public Image[] movements; //imagenes en el canvas que representan los movimientos
     public TextMeshProUGUI loseText; //texto cuando te quedas sin movimientos
-    public Material[] skins; //skins que se le da al player
+   // public Material[] skins; //skins que se le da al player
     public static UIManager _UIManager;
     private void Awake()
     {
@@ -32,8 +32,8 @@ public class UIManager : MonoBehaviour
     {
         movements[GameManager._gameManager.movements].rectTransform.DOScale(new Vector3(0, 0, 0), 0.3f).SetEase(Ease.InBack); //quita un movimiento de la UI, lo active el GameManager
     }
-    public RectTransform gachaButton;
-    public RectTransform ballsButton;
+  //  public RectTransform gachaButton;
+   // public RectTransform ballsButton;
 
     public void esconderUI()
     {
@@ -41,11 +41,11 @@ public class UIManager : MonoBehaviour
     }
     public void HideUI()
     {
-        gachaButton.GetComponent<Button>().enabled = false;
-        ballsButton.GetComponent<Button>().enabled = false;
+      //  gachaButton.GetComponent<Button>().enabled = false;
+       // ballsButton.GetComponent<Button>().enabled = false;
 
-        gachaButton.DOAnchorPosX(155,0.5f).SetEase(Ease.InBack);
-        ballsButton.DOAnchorPosX(-155, 0.5f).SetEase(Ease.InBack);
+        //gachaButton.DOAnchorPosX(155,0.5f).SetEase(Ease.InBack);
+        //ballsButton.DOAnchorPosX(-155, 0.5f).SetEase(Ease.InBack);
 
     }
 

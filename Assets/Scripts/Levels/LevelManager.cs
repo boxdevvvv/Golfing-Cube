@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour
      PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
         GameScenes();
     }
+ 
    public void GameScenes()
     {
         if(PlayerPrefs.GetInt("Level") <= 1 || PlayerPrefs.GetInt("Level") >= 9)
@@ -42,6 +43,10 @@ public class LevelManager : MonoBehaviour
     public void gachaponScene()
     {
         SceneManager.LoadScene("Gacha");
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
 
     }
 

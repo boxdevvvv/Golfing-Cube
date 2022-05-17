@@ -6003,8 +6003,8 @@ MonoBehaviour:
   skins:
   - {fileID: 2100000, guid: fa5e96a2efcbd424ebee0ffa5719d321, type: 2}
   - {fileID: 2100000, guid: f6040188cabfe564da0951b1c64f71db, type: 2}
-  gachaButton: {fileID: 1864864749}
-  ballsButton: {fileID: 2125379374}
+  gachaButton: {fileID: 0}
+  ballsButton: {fileID: 0}
 --- !u!1001 &575853099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19674,12 +19674,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1860859209}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &1864864749 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7937172531396417523, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7937172530911544350}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1866606906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21737,12 +21731,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2116767935}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &2125379374 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7937172531672658741, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7937172530911544350}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2147082909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22712,6 +22700,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 441040839}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1253169081}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 716426873552917937, guid: 809e88612cbaec846b9d9085a0a0e74b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7937172530266429864, guid: 809e88612cbaec846b9d9085a0a0e74b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

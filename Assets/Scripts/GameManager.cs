@@ -97,6 +97,8 @@ public class GameManager : MonoBehaviour
 
     public int movements; //movimientos que tienes para mover la bola
     public bool canRestart; //permite saber al ballcontroll si puede reiniciar escena al quedarse sin movimientos
+    //PUBLIC int numero tirables
+    public int tirosDisponibles = 0;
     public void PlayerMovement()
     {
         GetComponent<UIManager>().BallsMove(); //quita una de las esferas del canvas para dar a entender que perdiste un movimiento
