@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: d9ecf8d924286d64698cb475456a208c
+guid: d36b0b7156632a94e9b1149f68a5495c
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Bola8_TX
-    second: {fileID: 2800000, guid: c4e5e9ebe35ca5a44a9c5efb53d5ce65, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
