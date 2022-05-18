@@ -25,7 +25,7 @@ public class GachaManager : MonoBehaviour
         gold.text = CoinManager.Instance.Coins.ToString();
 
     }
-
+    public RectTransform botonSkins;
     private GameObject personajeQueSpawneo;
     public void Purchase()
     {
@@ -33,7 +33,7 @@ public class GachaManager : MonoBehaviour
         {
             volverButton.SetActive(false);
             botonDeCompra.SetActive(false);
-
+            botonSkins.DOAnchorPosY(-960, 1f).SetEase(Ease.OutBack);
             numeroAleatorio = Random.Range(0, personajeDesbloqueable.Length);
 
             GameObject _Character = Instantiate(personajeDesbloqueable[numeroAleatorio], gachaExterno.position, Quaternion.identity);
@@ -154,6 +154,7 @@ public class GachaManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         volverButton.SetActive(true);
         botonDeCompra.SetActive(true);
+        botonSkins.DOAnchorPosY(-604, 1f).SetEase(Ease.OutBack);
 
 
         yield break;

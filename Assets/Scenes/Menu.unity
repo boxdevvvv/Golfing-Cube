@@ -421,7 +421,7 @@ PrefabInstance:
     - target: {fileID: 7725614841810503782, guid: 5cdbeca116ec787419b22ca261e5dadb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cdbeca116ec787419b22ca261e5dadb, type: 3}
@@ -2235,6 +2235,7 @@ MonoBehaviour:
   playerBall: {fileID: 400355850}
   movements: 0
   canRestart: 0
+  tirosDisponibles: 0
 --- !u!4 &562263393
 Transform:
   m_ObjectHideFlags: 0

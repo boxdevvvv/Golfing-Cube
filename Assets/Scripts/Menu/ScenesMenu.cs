@@ -10,6 +10,10 @@ public class ScenesMenu : MonoBehaviour
     {
         if (!isShop)
         {
+            if(PlayerPrefs.GetInt("Level") <=2)
+            {
+                PlayerPrefs.SetInt("Level", 3);
+            }
             SceneManager.LoadScene(PlayerPrefs.GetInt("Level"));
             return;
         }
