@@ -36,6 +36,16 @@ public class GameManager : MonoBehaviour
         spawnBall.transform.localPosition = new Vector3(0, 0, 0);
         spawnBall.transform.localScale = new Vector3(1, 1, 1);
         player.DOScale(new Vector3(1, 1, 1), 0.5f); // anim de player
+
+        for (int i = 0; tirosDisponibles > i; i++)
+        {
+            balls[i].DOScale(new Vector3(2, 2, 2), 0.5f);
+            GameObject ballUi = Instantiate(CharacterManager.Instance.characters[CharacterManager.Instance.CurrentCharacterIndex]);
+            ballUi.transform.SetParent(balls[i]);
+            ballUi.transform.localPosition = new Vector3(0, 0, 0);
+            ballUi.transform.localScale = new Vector3(1, 1, 1);
+
+        }
     }
     public void WinLevel() // si llegas a la meta se activa el activador y la corutina que permite hacer que los bloques crezcan en forma de oleada, ademas esconde al player
     {
@@ -99,11 +109,20 @@ public class GameManager : MonoBehaviour
     public bool canRestart; //permite saber al ballcontroll si puede reiniciar escena al quedarse sin movimientos
     //PUBLIC int numero tirables
     public int tirosDisponibles = 0;
+
+    public Transform[] balls;
+    public int countBalls;
+    public void DeleteShot()
+    {
+        balls[countBalls].DOScale(new Vector3(0, 0,0), 0.5f);
+        countBalls++;
+    }
     public void PlayerMovement()
     {
-        GetComponent<UIManager>().BallsMove(); //quita una de las esferas del canvas para dar a entender que perdiste un movimiento
+        DeleteShot();
+       // GetComponent<UIManager>().BallsMove(); //quita una de las esferas del canvas para dar a entender que perdiste un movimiento
         movements++;//suma un movimiento
-        if (movements == 3) //si es igual a 3 le avisa al BallControll que ya no se puede mover y al UIManager que fue su ultimo movimiento
+        if (movements == tirosDisponibles) //si es igual a 3 le avisa al BallControll que ya no se puede mover y al UIManager que fue su ultimo movimiento
         {
             canMove = false;
             GetComponent<UIManager>().LastMovement();

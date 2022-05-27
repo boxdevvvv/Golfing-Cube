@@ -28,10 +28,10 @@ public class UIManager : MonoBehaviour
         textToName.text = pixelArtName;
     }
 
-    public void BallsMove()
-    {
-        movements[GameManager._gameManager.movements].rectTransform.DOScale(new Vector3(0, 0, 0), 0.3f).SetEase(Ease.InBack); //quita un movimiento de la UI, lo active el GameManager
-    }
+  //  public void BallsMove()
+    //{
+      //  movements[GameManager._gameManager.movements].rectTransform.DOScale(new Vector3(0, 0, 0), 0.3f).SetEase(Ease.InBack); //quita un movimiento de la UI, lo active el GameManager
+    //}
   //  public RectTransform gachaButton;
    // public RectTransform ballsButton;
 
