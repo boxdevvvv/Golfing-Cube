@@ -19,7 +19,10 @@ public class Character : MonoBehaviour
 
     void Awake()
     {
-        characterName = characterName.ToUpper();
+        print("primer print" + characterName);
+       // characterName = characterName;//.ToUpper();
+        print("second print" + characterName);
+
     }
     public void SalioEnGachapon()
     {

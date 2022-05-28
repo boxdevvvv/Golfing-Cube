@@ -34,12 +34,19 @@ public class SkinsManager : MonoBehaviour
     }
     private void Start()
     {
-        for (int i = 0; CharacterManager.Instance.characters.Length >= i; i++)
+        PlayerPrefs.SetInt(CharacterManager.Instance.characters[0].GetComponent<Character>().characterName, 1);
+        CargadoDeDatos();
+    }
+
+    public void CargadoDeDatos()
+    {
+        for (int i = 0; CharacterManager.Instance.characters.Length - 1 >= i; i++)
         {
             print("veces que inicio");
 
-            if (PlayerPrefs.GetInt(CharacterManager.Instance.GetComponent<Character>().characterName) == 1)
+            if (PlayerPrefs.GetInt(CharacterManager.Instance.characters[i].GetComponent<Character>().characterName) == 1)
             {
+                print("number boton " + i);
                 botones[i].interactable = true;
                 lockers[i].SetActive(false);
                 print(i);
@@ -47,17 +54,16 @@ public class SkinsManager : MonoBehaviour
             botones[CharacterManager.Instance.CurrentCharacterIndex].interactable = false;
             print("veces que llego");
         }
+
     }
+
     public Button[] botones;
     public GameObject[] lockers;
 
     public void SeleccionoButton(int _numberSelection) //setiador personaje
     {
+        botones[CharacterManager.Instance.CurrentCharacterIndex].interactable = true;
         CharacterManager.Instance.CurrentCharacterIndex = _numberSelection;
-       for(int i = 0; botones.Length<i; i++)
-       {
-            botones[i].interactable = true;
-       }
         botones[_numberSelection].interactable = false;
     }
 
