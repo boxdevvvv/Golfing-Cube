@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1788,7 +1788,7 @@ PrefabInstance:
     - target: {fileID: 7937172530947351964, guid: 809e88612cbaec846b9d9085a0a0e74b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7937172530947351964, guid: 809e88612cbaec846b9d9085a0a0e74b,
         type: 3}
@@ -1923,42 +1923,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &150973231 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7937172530983580012, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 150973226}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &150973232 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7937172531865780318, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 150973226}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &150973233 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7937172530987077880, guid: 809e88612cbaec846b9d9085a0a0e74b,
-    type: 3}
-  m_PrefabInstance: {fileID: 150973226}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &150973234 stripped
@@ -4135,7 +4099,7 @@ PrefabInstance:
     - target: {fileID: 816749433845320690, guid: 934c24f8eba6fd749ba9398e380d3392,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 816749433845320690, guid: 934c24f8eba6fd749ba9398e380d3392,
         type: 3}
@@ -4763,7 +4727,7 @@ PrefabInstance:
     - target: {fileID: 5572983978374574786, guid: 29164484c8d97814284015c77f35de23,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5572983978374574786, guid: 29164484c8d97814284015c77f35de23,
         type: 3}
@@ -6240,9 +6204,9 @@ MonoBehaviour:
   pixelArtName: -CUP OF TEA-
   textToName: {fileID: 150973234}
   movements:
-  - {fileID: 150973233}
-  - {fileID: 150973232}
-  - {fileID: 150973231}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   loseText: {fileID: 150973230}
 --- !u!1001 &573167893
 PrefabInstance:
@@ -7020,7 +6984,7 @@ Transform:
   - {fileID: 401079871}
   - {fileID: 102930279}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &665093449
 PrefabInstance:
@@ -8686,7 +8650,7 @@ PrefabInstance:
     - target: {fileID: 7436012975073710084, guid: 7c418fb78cd955846b08c3829793b478,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7436012975073710084, guid: 7c418fb78cd955846b08c3829793b478,
         type: 3}
@@ -12081,8 +12045,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145275761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.24625, y: -0.5, z: 0}
+  m_LocalScale: {x: 1.1024998, y: 1, z: 1}
   m_Children:
   - {fileID: 762383665}
   - {fileID: 343603904}
@@ -19868,7 +19832,7 @@ PrefabInstance:
     - target: {fileID: 8736804716904125587, guid: 8f479e2dcadc8834caf0d31c71f17457,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8736804716904125587, guid: 8f479e2dcadc8834caf0d31c71f17457,
         type: 3}
@@ -22463,7 +22427,7 @@ PrefabInstance:
     - target: {fileID: 3554619576528449609, guid: 528ec139820dd3c4fa85b9b189a7ec2f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3554619576528449609, guid: 528ec139820dd3c4fa85b9b189a7ec2f,
         type: 3}
