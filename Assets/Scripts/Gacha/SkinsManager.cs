@@ -11,6 +11,12 @@ public class SkinsManager : MonoBehaviour
     public RectTransform buttonOpen;
     
     public bool isOpen = false;
+
+    public static SkinsManager _skinsManager;
+    private void Awake()
+    {
+        _skinsManager = this;
+    }
     public void UpShop()
     {
         if(isOpen)
@@ -49,7 +55,7 @@ public class SkinsManager : MonoBehaviour
                 print("number boton " + i);
                 botones[i].interactable = true;
                 lockers[i].SetActive(false);
-                print(i);
+             //   print(i);
             }
             botones[CharacterManager.Instance.CurrentCharacterIndex].interactable = false;
             print("veces que llego");

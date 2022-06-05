@@ -18,7 +18,7 @@ public class GachaManager : MonoBehaviour
     public GameObject homeButton;
 
     public GameObject reemplazoGacha;
-    public SkinsManager _skinsManager;
+   // public SkinsManager _skinsManager;
     private void Start()
     {
         //PlayerPrefs.DeleteAll();
@@ -61,7 +61,7 @@ public class GachaManager : MonoBehaviour
             palanca.DOLocalRotate(new Vector3(-90, 0, 0), 1f).SetLoops(2, LoopType.Yoyo).SetEase(Ease.InBack);
 
             StartCoroutine(animacionGacha());
-            _skinsManager.CargadoDeDatos();
+            SkinsManager._skinsManager.CargadoDeDatos();
         }
         
     }
