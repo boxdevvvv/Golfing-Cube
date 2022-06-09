@@ -20,6 +20,8 @@ public class BallControl : MonoBehaviour
     public bool activeTouch = false; // variable usada para hacer que no se pueda interactuar en ciertas condiciones, tambien para evitar multiples pulsaciones que bugueen el juego
     private void Start()
     {
+        GetComponent<SphereCollider>().material.dynamicFriction = 0.4f;
+        GetComponent<SphereCollider>().material.staticFriction = 0.4f;
         GetComponentInChildren<ParticleSystem>().Play();
     }
   
