@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Blocks/Deslizantes.meta
 guid: f8e3ca840ff29cf41968f8bcfd003bd9
 folderAsset: yes
 DefaultImporter:
+========
+guid: 36efe15720d240b4f9b48c2d4d19765f
+PrefabImporter:
+>>>>>>>> 78282c2e969fe64ca32fdeb2357e3a444b79fd5b:Assets/Blocks/Obstacles/VanishBlock.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
