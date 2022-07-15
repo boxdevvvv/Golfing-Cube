@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10383,6 +10383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5532253584585634179, guid: 022c64270ebad1849bbf8be187b0b610,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 022c64270ebad1849bbf8be187b0b610, type: 3}
 --- !u!1001 &1114211301
@@ -16234,6 +16239,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 343603904}
     m_Modifications:
+    - target: {fileID: 2517505172176884643, guid: 047f9cc102b86044fb12f485cc01ff22,
+        type: 3}
+      propertyPath: scalaUnica
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4756448293648315968, guid: 047f9cc102b86044fb12f485cc01ff22,
         type: 3}
       propertyPath: m_Name
@@ -17042,7 +17052,7 @@ PrefabInstance:
     - target: {fileID: 5280923738745597178, guid: 047f9cc102b86044fb12f485cc01ff22,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5280923738745597178, guid: 047f9cc102b86044fb12f485cc01ff22,
         type: 3}
@@ -17057,7 +17067,7 @@ PrefabInstance:
     - target: {fileID: 5280923738745597178, guid: 047f9cc102b86044fb12f485cc01ff22,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5280923738745597178, guid: 047f9cc102b86044fb12f485cc01ff22,
         type: 3}
