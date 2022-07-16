@@ -50,6 +50,8 @@ public class GameManager : MonoBehaviour
     public void WinLevel() // si llegas a la meta se activa el activador y la corutina que permite hacer que los bloques crezcan en forma de oleada, ademas esconde al player
     {
         StartCoroutine(ActivadorScale());
+        player.GetComponent<BallControl>().activadorSonidos = false;
+        //player.gameObject.tag = ".";
         player.DOScale(new Vector3(0, 0, 0), 0.5f);
         player.GetComponent<TrailRenderer>().enabled = false;
         activador.SetActive(true);

@@ -10,6 +10,7 @@ TagManager:
   - CharacterSelectController
   - Music
   - Sound
+  - .
   layers:
   - Default
   - TransparentFX

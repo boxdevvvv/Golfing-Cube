@@ -143,11 +143,12 @@ public class BallControl : MonoBehaviour
     }
 
     private bool spawneo = false;
+    public bool activadorSonidos = true;
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Ground"))
         {
-            if(spawneo)
+            if(spawneo & activadorSonidos)
             {
                 SoundManager.PlaySound("Pared");
                 return;

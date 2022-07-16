@@ -25,9 +25,9 @@ public class LevelManager : MonoBehaviour
  
    public void GameScenes()
     {
-        if(PlayerPrefs.GetInt("Level") <= 1 || PlayerPrefs.GetInt("Level") >= 9)
+        if(PlayerPrefs.GetInt("Level") <= 1 || PlayerPrefs.GetInt("Level") >= 14)
         {
-            PlayerPrefs.SetInt("Level",3);
+            PlayerPrefs.SetInt("Level",4);
         }
         SceneManager.LoadScene(PlayerPrefs.GetInt("Level"));
         print(PlayerPrefs.GetInt("Level"));
