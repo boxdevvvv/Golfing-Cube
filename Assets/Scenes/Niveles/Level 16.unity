@@ -4841,7 +4841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818b526b00b75374f983da5ea5e96181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pixelArtName: -LEAF-
+  pixelArtName: "-MEL\xD3N-"
   textToName: {fileID: 150973234}
   movements:
   - {fileID: 0}
